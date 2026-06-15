@@ -82,6 +82,9 @@ Hasil prediksi nyata model terhadap data pengujian menghasilkan matriks berikut:
 
 ## 6. Deployment
 
-Model machine learning yang telah dilatih kemudian diekspor ke dalam file biner (`fraud_model.pkl` dan `scaler.pkl`) menggunakan library *pickle*. Komponen ini kemudian diintegrasikan ke dalam skrip antarmuka **Streamlit** (`app.py`).
+Model machine learning yang telah dilatih kemudian diekspor ke dalam file biner (`fraud_model.pkl` (*1) dan `scaler.pkl`) menggunakan library *pickle*. Komponen ini kemudian diintegrasikan ke dalam skrip antarmuka **Streamlit** (`app.py`).
 
 Aplikasi web dashboard **CreditShield** ini dirancang dengan antarmuka yang clean, minimalis, dan fungsional. Pengguna dapat memasukkan parameter transaksi secara langsung melalui slider atau kolom input, dan sistem akan langsung mengeluarkan hasil analisis apakah transaksi tersebut dikategorikan sebagai **AMAN / NORMAL** atau **INDIKASI FRAUD**, lengkap dengan nilai probabilitasnya secara real-time.
+
+### Dokumentasi Antarmuka Dashboard Aplikasi:
+![Hasil Analisis Aplikasi](hasil_aplikasi.png)
